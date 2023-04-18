@@ -14,5 +14,5 @@ jobs:
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
-          PUSH_TYPES: 'SERVERCHAN_SEND_KEY '
+          PUSH_TYPES: 'SERVERCHAN_SEND_KEY'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
